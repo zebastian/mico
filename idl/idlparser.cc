@@ -45,7 +45,14 @@
 #endif // FAST_PCH
 
 
-using namespace std;
+// using namespace std;
+using std::string;
+using std::endl;
+using std::cerr;
+using std::set;
+using std::vector;
+using std::less;
+using std::iterator;
 
 CORBA::Container_ptr
 IRCopier (DB & db, IDLParam & params,

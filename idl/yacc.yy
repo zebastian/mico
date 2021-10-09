@@ -40,7 +40,8 @@
 #include <mico/template_impl.h>
 
 
-using namespace std;
+// using namespace std;
+using std::string;
 
 extern int yylex();
 

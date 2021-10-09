@@ -37,7 +37,7 @@
 
 #include <CORBA-SMALL.h>
 #include <mico/impl.h>
-
+#include <climits>
 #endif // FAST_PCH
 
 
